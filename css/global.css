@@ -1,0 +1,43 @@
+        body {
+            color: #000000;
+            background-color: #FFFFFF;
+            font-family: Helvetica, sans-serif; 
+        }
+
+        p {
+            font-family: Helvetica, sans-serif;
+        }
+
+        A:link {
+            text-decoration: none;
+            color: #ffa500; 
+        }
+
+        A:visited {
+            color: #666666; 
+        }
+
+        td {
+            color: #000000;
+            font-family: Helvetica, sans-serif; 
+        }
+
+        .code {
+            color: #000000;
+            font-family: "Courier New", Courier;
+        }
+
+        .level0 { background: #a1a1a1; color: black; }
+        .level1 { background: #c2c2c2; color: black; }
+        .level2 { background: #9ccbe5; color: black; }
+        .level3 { background: #a6ffc6; color: #000000; }
+        .level4 { background: #698b69; color: black; }
+
+        div.level0, div.level1, div.level2, div.level3, div.level4 {
+	   padding: 1px;
+  	   margin: 0px 0px 3px 0px;
+	}
+
+	h2 { padding: 3px; }
+	h4 { padding: 2px; font-weight: normal; }
+

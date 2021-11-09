@@ -1,0 +1,77 @@
+@media print
+{
+
+body {
+	color: black;
+	background-color: white;
+}
+
+table {
+	caption-side: bottom;
+}
+
+*.nonprint,*.menu {
+	display: none;
+}
+
+em#debug {
+	display: none;
+}
+}
+
+@media screen
+{ /* ... Formatdefinitionen zur Bildschirmausgabe ... */
+
+table {
+	caption-side: bottom;
+	padding: 2pt;
+}
+
+caption {
+	font-size: 85%;
+	font-style: italic;
+	color: #bbbbbb;
+}
+
+th {
+	font-size: 105%;
+	font-style: italic;
+}
+
+tfoot {
+	font-size: 105%;
+	font-style: italic;
+	font-weight: bold;
+}
+
+td {
+	padding-left: 3pt;
+	padding-right: 3pt;
+	padding-top: 0pt;
+	padding-bottom: 0pt;
+	font-size: 85%;
+}
+
+tr.ruled {
+        background: #448877;
+}    
+
+em#debug {
+	color: #ccc;
+	display: none;
+}
+
+input  {
+	border: 1pt solid #333;
+}
+
+div#menu {
+	align: center;
+}
+
+div#vorrat {
+	color: green;
+	font-weight: bold;
+}
+
+}

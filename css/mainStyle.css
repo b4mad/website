@@ -1,0 +1,109 @@
+@media print
+{ /* ... Formatdefinitionen zum Drucken ... */
+body {
+	color: black;
+	font-size: 10px;
+	background-color: white;
+}
+
+h1,h2,h3 {
+	font-size: 11px;
+}
+
+td, tr {
+	font-size: 10px;
+}
+
+*.navigation {
+	display: none;
+}
+
+}
+
+@media screen
+{ /* ... Formatdefinitionen zur Bildschirmausgabe ... */
+body {
+           font-weight: normal;
+           font-size: 13px;
+           margin: 15px;
+           color: black;
+           font-family: Helvetica, Arial, sans-serif;
+           background-color: #f8fcf8;
+        }
+
+        p {
+           font-family: Helvetica, Arial, sans-serif;
+        }
+
+        A:link {
+            text-decoration: none;
+            color: darkorange; 
+           font-family: Helvetica, Arial, sans-serif;
+        }
+
+        A:visited {
+            color: #666666; 
+           font-family: Helvetica, Arial, sans-serif;
+        }
+
+        td {
+            color: #000000;
+            font-family: Helvetica, Arial; 
+            font-size: 16px;
+           font-family: Helvetica, Arial, sans-serif;
+        }
+
+        .code {
+            color: #000000;
+            font-family: "Courier New", Courier;
+            font-size: 16px;
+        }
+
+h1,h2,h3 {
+           font-family: Helvetica, Arial, sans-serif;
+}
+
+p.tip {
+	background: #eeeeee;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 80%;
+	padding-left: 10px;
+	padding-top: 5px;
+        font-family: Helvetica, Arial, sans-serif;
+}
+p.tip:before {
+	font-weight: bold;
+	content: "TIP: ";
+        font-family: Helvetica, Arial, sans-serif;
+}
+	
+#inputbox {
+	width: 100px;
+	margin: 2;
+	padding: 4px;
+	border: 2px #000000;
+	font-size: 11px;
+	color: #000000;
+	text-align: center;
+}
+
+#inputbutton {
+	width: 100px;
+	margin: 2;
+	padding: 4px;
+	border: 2px #000000;
+	font-size: 11px;
+	color: #000000;
+	text-align: center;
+}
+
+#writebackinput {
+	margin: 2;
+	padding: 4px;
+	border: 2px #000000;
+	font-size: 11px;
+	color: #000000;
+}
+
+}

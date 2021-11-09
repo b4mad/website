@@ -1,0 +1,65 @@
+/* $Id:$ */
+
+  html, body {
+         background: #000000;
+         color: #00AA00;
+         font-family: Helvetica, sans-serif;
+         font-size: 12pt;
+       }
+
+  p {
+         font-family: Helvetica, sans-serif;
+         font-size: 12pt;
+  }
+
+  ul {
+         font-family: Helvetica, sans-serif;
+         font-size: 12pt;
+  }
+
+
+  h1, h2, h3 {
+               color: Green;
+               font-weight: bold;
+             }
+
+  address {
+            text-align: center;
+            font-size: 10pt;
+            font-style: italic;
+          }
+
+a {
+      text-decoration: none;
+      font-family: Helvetica, sans-serif;
+      font-size: 12pt;
+}
+
+a:link { font-weight:bold; color: #00ff00; }
+a:visited { font-weight:bold; color: #00aa00; text-decoration: underline; }
+a:hover { font-weight:bold; color: #ffa500; }
+a:active { font-weight:bold; color: white; }
+a:focus { font-weight:bold; color: #00e000; }
+
+b {
+      text-decoration: none;
+      font-family: Helvetica, sans-serif;
+      font-size: 12pt;
+}
+
+em.strong {
+      font-family: Helvetica, sans-serif;
+      font-size: 12pt;
+      text-decoration: none;
+      color: #aaffaa;
+
+}
+
+div.center {
+	text-align: center;
+}
+
+div.content {
+	margin-left: 200px;
+	text-align: justify;
+}

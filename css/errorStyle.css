@@ -1,0 +1,37 @@
+        body {
+            color: #000000;
+            background-color: #FFFFFF;
+            font-family: Helvetica, sans-serif; 
+            font-size: 14px;
+        }
+
+        p {
+            font-family: Helvetica, sans-serif;
+        }
+
+        A:link {
+            text-decoration: none;
+            color: #ffa500; 
+        }
+
+        A:visited {
+            color: #666666; 
+        }
+
+	strong {
+		color: red;
+		font-style: sans-serif;
+		font-size: 24pt;
+	}
+
+        td {
+            color: #000000;
+            font-family: Helvetica, sans-serif; 
+            font-size: 16px;
+        }
+
+        .code {
+            color: #000000;
+            font-family: "Courier New", Courier;
+            font-size: 16px;
+        }

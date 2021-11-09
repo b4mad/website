@@ -1,0 +1,51 @@
+        body {
+            color: #000000;
+            background-color: #FFFFFF;
+            font-family: Helvetica; 
+            font-size: 14px;
+        }
+
+        p {
+            font-family: sans-serif;
+        }
+
+        A:link {
+            text-decoration: none;
+            color: #ffa500; 
+        }
+
+        A:visited {
+            color: #666666; 
+        }
+
+        td {
+            color: #000000;
+            font-family: Helvetica, Arial; 
+            font-size: 16px;
+        }
+
+	td.pollbg {
+		background-color: #eaeaea;
+		font-size: 5pt;
+	}
+
+	td.pollfg {
+		background-color: #9ccbe5;
+		font-size: 5pt;
+	}
+
+        .code {
+            color: #000000;
+            font-family: "Courier New", Courier;
+            font-size: 16px;
+        }
+
+	.EGtablehead {
+		color: #ffffff;
+		background-color: #9ccbe5;
+	}
+
+	.EGtablelink.link {
+		color: #ffffff;
+	}
+
